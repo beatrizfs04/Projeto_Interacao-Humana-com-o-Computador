@@ -1,0 +1,98 @@
+#startGame{
+    -fx-background-radius: 20px;
+    -fx-background-color: #A0CC00;
+    -fx-text-fill: white;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+}
+
+#restartButton{
+    -fx-background-radius: 10px;
+    -fx-background-color: #ceff1a;
+}
+
+#backButton{
+    -fx-background-radius: 10px;
+    -fx-background-color: #ceff1a;
+}
+
+#startGameButton{
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 20px;
+}
+
+#minesLeftLabel{
+    -fx-text-fill: white;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 10pt;
+    -fx-font-weight: bold;
+}
+
+#minesLeftText{
+    -fx-text-fill: #ceff1a;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 10pt;
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+}
+
+#timeLabel{
+    -fx-text-fill: #ceff1a;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 10pt;
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+}
+
+
+.button{
+    -fx-background-radius: 0;
+    -fx-background-color: #A0CC00;
+}
+
+.button:disabled{
+   -fx-background-color: #FFA672;
+   -fx-opacity: 1.0;
+   -fx-text-fill: black;
+}
+
+
+#button78, #button87, #button89{
+    -fx-background-color: #A0CC00;
+}
+#button78:disabled, #button87:disabled, #button89:disabled{
+    -fx-background-color: #FFA672;
+}
+
+
+#button00, #button02, #button04, #button06, #button08, #button11,
+#button13, #button15, #button17, #button19, #button20, #button22,
+#button24, #button26, #button28, #button31, #button33, #button35,
+#button37, #button39, #button40, #button42, #button44, #button46,
+#button48, #button51, #button53, #button55, #button57, #button59,
+#button60, #button62, #button64, #button66, #button68, #button71,
+#button73, #button75, #button77, #button79, #button80, #button82,
+#button84, #button86, #button88, #button91, #button93, #button95,
+#button97, #button99 {
+    -fx-background-color: #ceff1a;
+}
+
+#button00:disabled, #button02:disabled, #button04:disabled, #button06:disabled, #button08:disabled, #button11:disabled,
+#button13:disabled, #button15:disabled, #button17:disabled, #button19:disabled, #button20:disabled, #button22:disabled,
+#button24:disabled, #button26:disabled, #button28:disabled, #button31:disabled, #button33:disabled, #button35:disabled,
+#button37:disabled, #button39:disabled, #button40:disabled, #button42:disabled, #button44:disabled, #button46:disabled,
+#button48:disabled, #button51:disabled, #button53:disabled, #button55:disabled, #button57:disabled, #button59:disabled,
+#button60:disabled, #button62:disabled, #button64:disabled, #button66:disabled, #button68:disabled, #button71:disabled,
+#button73:disabled, #button75:disabled, #button77:disabled, #button79:disabled, #button80:disabled, #button82:disabled,
+#button84:disabled, #button86:disabled, #button88:disabled, #button91:disabled, #button93:disabled, #button95:disabled,
+#button97:disabled, #button99:disabled {
+    -fx-background-color: #FFC288;
+    -fx-text-fill: black;
+    -fx-opacity: 1.0;
+
+
+}
+
+

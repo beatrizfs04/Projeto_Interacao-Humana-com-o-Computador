@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="426.0" prefWidth="380.0" style="-fx-background-color: #F68854;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ihc_mineswepper.GameController2">
+    <top>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="380.0" spacing="10" stylesheets="@styles.css" GridPane.columnSpan="10" GridPane.rowIndex="0">
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#backToHome" prefHeight="26.0" prefWidth="52.0" text="Voltar" />
+            <Button fx:id="restartButton" mnemonicParsing="false" onAction="#restartGame" prefHeight="26.0" prefWidth="75.0" text="Recomeçar">
+                <HBox.margin>
+                    <Insets right="10.0" />
+                </HBox.margin>
+            </Button>
+            <Label fx:id="minesLeftText" text="MINES LEFT" />
+            <Label fx:id="minesLeftLabel" prefHeight="34.0" prefWidth="25.0" text="10" textFill="WHITE">
+                <HBox.margin>
+                    <Insets />
+                </HBox.margin></Label>
+            <Label fx:id="timeLabel" prefHeight="18.0" prefWidth="55.0" text="TIME">
+                <HBox.margin>
+                    <Insets />
+                </HBox.margin></Label>
+        </HBox>
+    </top>
+    <center>
+        <GridPane fx:id="gameGrid" prefHeight="375.0" prefWidth="380.0" stylesheets="@styles.css" GridPane.columnSpan="10" GridPane.rowIndex="1" GridPane.rowSpan="10">
+            <Button fx:id="button00" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Button fx:id="button01" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Button fx:id="button02" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+            <Button fx:id="button03" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+            <Button fx:id="button04" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+            <Button fx:id="button05" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="5" GridPane.rowIndex="0" />
+            <Button fx:id="button06" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="6" GridPane.rowIndex="0" />
+            <Button fx:id="button07" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="7" GridPane.rowIndex="0" />
+            <Button fx:id="button10" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Button fx:id="button11" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="button12" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="button13" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="button14" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="button15" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="button16" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="button17" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Button fx:id="button20" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <Button fx:id="button21" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="button22" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="button23" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="button24" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="button25" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="button26" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="button27" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Button fx:id="button30" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <Button fx:id="button31" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="button32" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="button33" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="button34" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button fx:id="button35" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button fx:id="button36" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button fx:id="button37" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Button fx:id="button40" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+            <Button fx:id="button41" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button fx:id="button42" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button fx:id="button43" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button fx:id="button44" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Button fx:id="button45" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Button fx:id="button46" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Button fx:id="button47" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Button fx:id="button50" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+            <Button fx:id="button51" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button fx:id="button52" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button fx:id="button53" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Button fx:id="button54" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Button fx:id="button55" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Button fx:id="button56" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Button fx:id="button57" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Button fx:id="button60" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+            <Button fx:id="button61" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Button fx:id="button62" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Button fx:id="button63" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Button fx:id="button64" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Button fx:id="button65" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Button fx:id="button66" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Button fx:id="button67" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Button fx:id="button70" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="0" GridPane.rowIndex="7">
+                <GridPane.margin>
+                    <Insets />
+                </GridPane.margin></Button>
+            <Button fx:id="button71" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                <GridPane.margin>
+                    <Insets />
+                </GridPane.margin></Button>
+            <Button fx:id="button72" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                <GridPane.margin>
+                    <Insets />
+                </GridPane.margin></Button>
+            <Button fx:id="button73" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                <GridPane.margin>
+                    <Insets />
+                </GridPane.margin></Button>
+            <Button fx:id="button74" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                <GridPane.margin>
+                    <Insets />
+                </GridPane.margin></Button>
+            <Button fx:id="button75" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                <GridPane.margin>
+                    <Insets />
+                </GridPane.margin></Button>
+            <Button fx:id="button76" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                <GridPane.margin>
+                    <Insets />
+                </GridPane.margin></Button>
+            <Button fx:id="button77" onAction="#handleButtonPress" prefHeight="48.0" prefWidth="48.0" stylesheets="@styles.css" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                <GridPane.margin>
+                    <Insets />
+                </GridPane.margin></Button>
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+                <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+            <GridPane.margin>
+                <Insets />
+            </GridPane.margin>
+        </GridPane>
+    </center>
+</BorderPane>
