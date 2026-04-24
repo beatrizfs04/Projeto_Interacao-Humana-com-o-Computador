@@ -1,4 +1,4 @@
-# Projeto de Base de Dados
+# Projeto de Interação Humana com o Computador
 ## O que foi feito?
 Esta aplicação é uma recriação do jogo Minesweeper.
 
