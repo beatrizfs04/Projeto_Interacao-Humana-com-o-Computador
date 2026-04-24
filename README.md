@@ -16,6 +16,7 @@ Este projeto foi realizado por 2 alunas da Lincenciatura de Informática Web, M�
 
 ## Que linguagens de programação foram utilizadas?
 - Java
+- CSS
 
 ## Como inicializar o projeto?
 Com o auxilio do Intellij Idea, inicializa-se a class "```Main```".
